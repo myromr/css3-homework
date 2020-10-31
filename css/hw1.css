@@ -1,3 +1,5 @@
+/* This really looks best on a large screen */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
 * {
@@ -20,7 +22,7 @@ header {
     background-image: url(../images/flywheel.jpg);
     background-size: 100%;
     background-position: top;
-    padding: 35px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -28,7 +30,7 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -41,6 +43,7 @@ ul li {
 }
 
 nav a{
+    font-size: .9em;
     display: inline-block;
     margin: 1em;
     text-decoration: none;
@@ -52,24 +55,28 @@ nav a{
     border-radius: 5px;
     
     color: #000000;
-    background-color: #8ebdb6c0;
+    background-color: #8eb4bdbb;
     text-align: center;
     vertical-align: middle;
     width:150px;
     height: 20px;
 }
 
+nav a:hover {
+    background-color: #8eb4bd;
+}
+
 h2 {
     color: #0F1F26;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .active {
-    background-color: #ffffff;
+    background-color: #eff9ff;
+    font-weight: bold;
 }
-
 
 img {
     width: 89%;
@@ -89,10 +96,10 @@ img {
   
 
 .right {
-    width: 60%;
+    width: 70%;
     display: inline-block;
-    padding: 2%;
-    margin: 1%;
+    padding: 2% 0 0 2%;
+    margin: 1% 0 0 1%;
 }
 
 table {
@@ -102,6 +109,7 @@ table {
     width: 90%;
     margin: 0 auto;
     vertical-align: middle;
+    margin-top: 2%;
 }
 
 th {
@@ -117,6 +125,16 @@ th {
     border-bottom: 4px solid #0E5575;
 
     text-shadow: 1px 1px 2px #ffffff;
+
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-top-left-radius: 2px;
+    -moz-border-top-right-radius: 2px;
+    -o-border-top-left-radius: 2px;
+    -o-border-top-right-radius: 2px;
+
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 th, tr td {
@@ -146,5 +164,5 @@ td {
     -o-border-radius: 2px;
     border-radius: 2px;
 
-    text-shadow: 1px 1px 2px #01aaff;
+    text-shadow: 1px 1px 2px #00aaffc4;
 }
